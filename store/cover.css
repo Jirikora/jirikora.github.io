@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Battambang:wght@300&family=Poppins:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: grey;
+}
+div.boss {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  margin: 8px;
+  display: flex;
+  position: relative;
+  max-width: 620px;
+  overflow: hidden;
+}
+.card-left {
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+.card-right {
+  width: 50%;
+  height: 100%;
+  background: green;
+  /* display: inline-block; */
+  position: absolute;
+  right: 0;
+  background-image: url(../image/girl.jpg);
+  background-size: cover;
+  background-position-x: 60px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 49%);
+}
+.khmer {
+  font-family: "Battambang", cursive;
+  padding: 8px;
+  font-size: 12px;
+  /* background:blue; */
+  margin-top: -10px;
+  letter-spacing: 2px;
+}
+div p:nth-child(1) {
+  /* background-color: red; */
+  margin: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 8px;
+}
+div p:nth-child(2) {
+  font-size: 50px;
+  font-family: "Dela Gothic One", cursive;
+  margin-top: -20px;
+  margin-bottom: 0;
+  font-weight: 900;
+  letter-spacing: 5px;
+  background: linear-gradient(80deg, #ffa500, #e71515);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 8px;
+}
+button {
+  color: white;
+  background: linear-gradient(80deg, #ffa500, #e71515);
+  border: none;
+  clip-path: polygon(0 0, 100% 2%, 95% 100%, 0% 100%);
+  font-size: 20px;
+  font-weight: 900;
+  padding: 0px 8px;
+  display: block;
+  margin: 8px;
+}
+div.bottom a {
+  color: blue;
+  margin: 8px;
+}
+div.first {
+  width: 300px;
+  height: 100%;
+  background: #0000ff;
+  position: absolute;
+  right: 10px;
+  clip-path: polygon(50% 0, 65% 0, 15% 50%, 65% 100%, 50% 100%, 0 49%);
+}
+div.second {
+  width: 20px;
+  height: 50px;
+  background: transparent;
+  position: absolute;
+  left: 379px;
+  top: -20px;
+  border-left: 30px solid rgba(230, 154, 14,.8);
+  border-bottom: 30px solid rgb(230, 154, 14);
+  transform: rotate(45deg);
+  border-bottom-left-radius: 10px;
+}
+div.third {
+  /* background: red; */
+  position: absolute;
+  bottom:0;
+  left:386px;
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid rgb(209, 144, 22);
+}
