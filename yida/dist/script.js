@@ -1,5 +1,6 @@
 import QrScanner from "../node/qr-scanner.min.js";
 QrScanner.WORKER_PATH = "../node/qr-scanner-worker.min.js";
+QrScanner.WORKER_PATH = "./qr-scanner-worker.min.js";
 
 const video = document.getElementById("videoOfscanner");
 const resultOfscan = document.getElementById("textOfscanner");
