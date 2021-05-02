@@ -1,0 +1,10 @@
+$colorOfHeader1: #1a9dfd;
+$colorOfHeader2: #027ffa;
+$padding: 5px;
+$white: #ffffff;
+$paddingMargin: 5px;
+@mixin flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
