@@ -1,10 +1,6 @@
 import QrScanner from "../node/qr-scanner.min.js";
-<<<<<<< HEAD
-QrScanner.WORKER_PATH = "../node/qr-scanner-worker.min.js";
-QrScanner.WORKER_PATH = "./qr-scanner-worker.min.js";
-=======
-QrScanner.WORKER_PATH = "https://jirikora.github.io/yida/node/qr-scanner-worker.min.js";
->>>>>>> 45e3c91eefc1ac204a9eb867134423a19f13d71a
+QrScanner.WORKER_PATH =
+  "https://jirikora.github.io/yida/node/qr-scanner-worker.min.js";
 
 const video = document.getElementById("videoOfscanner");
 const resultOfscan = document.getElementById("textOfscanner");
