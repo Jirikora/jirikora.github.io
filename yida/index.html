@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header1">
+      <div id="header1left">
+        <img src="./asset/yida.png" alt="yida.png" draggable="false" />
+        <div id="name">
+          <p>YI DA manufacturer Co,. LTD</p>
+        </div>
+      </div>
+      <div id="header1right">
+        <div id="setting" class="btn" title="Setting">
+          <i class="fas fa-cog"></i>
+        </div>
+        <div id="download" class="btn" title="download">
+          <i class="fas fa-download"></i>
+        </div>
+        <div id="question" class="btn" title="question">
+          <i class="fas fa-question"></i>
+        </div>
+        <div id="username" class="btn" title="Your username">
+          <p>Your name</p>
+        </div>
+      </div>
+    </header>
+    <div id="header2">
+      <div id="header2left">
+        <div id="favorite" class="header2leftItem">
+          <i class="fas fa-star"><span>Favorite</span></i>
+        </div>
+        <div id="browse" class="header2leftItem">
+          <i class="fas fa-book"><span>Browse</span></i>
+        </div>
+      </div>
+      <div id="header2right">
+        <div id="new" class="header2rightItem">
+          <i class="fas fa-plus" id="newButtontobeclick"
+            ><span id="spantobeclickon">New</span></i
+          ><i class="fas fa-chevron-down"></i>
+        </div>
+        <div id="upload" class="header2rightItem">
+          <i class="fas fa-upload"><span>Upload</span></i>
+        </div>
+        <div id="folder" class="header2rightItem">
+          <i class="fas fa-folder-open"><span>Manage folder</span></i>
+        </div>
+        <div id="table" class="header2rightItem">
+          <i class="fas fa-table"><span>Titles</span></i
+          ><i class="fas fa-chevron-down"></i>
+        </div>
+        <div id="search" class="header2rightItem">
+          <input type="text" placeholder="Search..." />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </div>
+    <div id="category">
+      <i class="fas fa-home"><span>Home</span></i>
+    </div>
+    <div id="center">
+      <div id="nameOF">FOLDERS <span id="numberOfFolder">(10)</span></div>
+      <div id="folderContent">
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>ADM
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>CCT
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>FIN
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>HRD
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>ISD
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>PPC
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>QAD
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>Report Parts
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>Tranning
+        </div>
+        <div class="folderContentItem">
+          <i class="fas fa-folder-open"></i>UNW
+        </div>
+      </div>
+    </div>
+
+    <div id="bottom">
+      <div id="nameOFbottom">QrCode <span id="numberOfbottom">(1)</span></div>
+      <div id="folderContentbottom">
+        <div class="folderContentItembottom">Hello!</div>
+      </div>
+    </div>
+    <div id="contentofscannertobeuse">
+      <div id="pageOfscanner">
+        <div id="cencelbuttonOfscanner">
+          <i class="fas fa-times" id="cacelSign"></i>
+        </div>
+        <video id="videoOfscanner"></video>
+        <input type="text" id="textOfscanner" readonly />
+        <div id="buttonOfscanner">
+          <button id="startOfscanner" class="buttonOfscannerItem">Start</button>
+          <button id="saveOfscanner" class="buttonOfscannerItem">
+            SaveQrCode
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./dist/script.js"></script>
+  </body>
+</html>
